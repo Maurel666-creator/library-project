@@ -1,0 +1,15 @@
+/* header.css */
+
+.menu-mobile {
+  opacity: 0;
+  transform: translateY(-10px);
+  pointer-events: none;
+  transition: opacity 0.3s ease-out, transform 0.3s ease-out;
+}
+
+.menu-mobile.open {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
